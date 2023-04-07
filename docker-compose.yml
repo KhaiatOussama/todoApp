@@ -10,8 +10,8 @@ services:
   mysqldb:
     image: "mysql:8.0.32"
     restart: always
-    ports:
-      - 3307:3306
+#    ports:
+#      - 3307:3306
     environment:
       MYSQL_DATABASE: Task
       MYSQL_PASSWORD: KHAIAT
